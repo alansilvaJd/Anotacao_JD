@@ -1,0 +1,13 @@
+Exemplo:
+Dentro da pasta : J:\Desenvolvimento - Teste\JD CTC\Versão 2.0 > , vai conter um serviço entregue pelo dev para ser testado. 
+  
+É necessário copiar esse serviço para a pasta de serviços, conforme mencionado abaixo : 
+D:\Ambientes\JDNPC\Servicos\
+
+Necessário primeiro fazer a reinstalação do serviço, mencionando o nome do serviço que precisa ser desinstalado e o comando  "uninstall"
+D:\Ambientes\JDNPC\Servicos\JDNPC_Integrador_BI.exe -uninstall
+
+Logo após isso, é necessário rodar o comando de "install", informando o serviço logo inserido na pasta de serviço : 
+D:\Ambientes\JDNPC\Servicos\JDNPC_Integrador_BI.exe -install
+
+Dessa forma, o serviço antigo é desisntalado e o novo com as novas correções/atualizações é 
