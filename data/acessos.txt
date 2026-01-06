@@ -1,0 +1,11 @@
+Acesso ao TestLink : 
+Url : http://jdcorp:88/JDTestlink/login.php?viewer=
+Usuário: Maquina
+Senha : Maquina
+----------------------------------------------------
+Nome VM : JD224
+-----------------------------------------------------
+SQL: 
+Usuário : JDBDSQL\TESTE_SQL2016
+JDTESTE
+JD_QA#2023
