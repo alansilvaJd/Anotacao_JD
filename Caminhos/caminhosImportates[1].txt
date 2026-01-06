@@ -1,0 +1,9 @@
+Ambiente Local
+Caminho pasta de serviços :  D:\Ambientes\JDNPC\Servicos\
+Caminho da pasta de WS    :  D:\Ambientes\JDNPC\Site\WS  
+------------------------------------------------------------------------------
+Liberação dev NPC : J:\Desenvolvimento - Teste\JD MES\JD NPC
+Liberação dev CTC : J:\Desenvolvimento - Teste\JD CTC\  
+---------------------------------------------------------------------------
+Layouys dos arquivos de envio do soap
+J:\Desenvolvimento - Teste\JD MES\JD NPC\Versão 1.3\Especificação
