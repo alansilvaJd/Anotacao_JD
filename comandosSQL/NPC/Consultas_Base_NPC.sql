@@ -26,6 +26,21 @@ SELECT * FROM TBJDNPCCIP_ARQ_TRANS order by DT_REGISTRO DESC
 SELECT * FROM TBJDNPCCIP_ARQ_REC order by ID_ARQV_REC DESC
 
 
+Consultar recebedora : 
+
+  SELECT * FROM TBJDNPCRCB_TIT_ACEITE where NUMIDENTCTIT = '2025041662060000806' 
+SELECT * FROM TBJDNPCRCB_TIT_DADOS where NUMIDENTCTIT = '2025041662060000806' 
+select * from  TBJDNPCRCB_BAIXA_OPER where NUMIDENTCTIT='2025041662060000806'
+select * from TBJDNPCRCB_TIT_BX_OPER where NUMIDENTCTIT='2025041662060000806'
+select * from  TBJDNPCRCB_BAIXA_OPER order by DtHrCanceltBaixa desc
+ 
+ 
+select * from TBJDMSG_MENSAGEM order by DTHRMENSAGEM desc
+select * from TBJDMSG_QMLOG order by DTHRMENSAGEM desc
+select * from TBJDMSG_MENSAGEM where NUMMSG='222736'
+select * from TBJDMSG_QMLOG where NUMMSG='222736'
+
+  
 ------------------------------------------------------------------------------------------------------------------
   Recebimento de retorno mais de uma vez, precisa deletar alguns registros.
   
